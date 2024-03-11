@@ -12,8 +12,9 @@ body {
 
 h1{
     text-align: center;
-    color: yellowgreen;
-    ;
+    color: blueviolet;
+    font-weight: bold;
+    font-size: 65px;
 
 }
 
@@ -89,4 +90,14 @@ ul li {
 .priority-low {
     color: blue !important;
 }
+.Current_Tasks_Heading {
+    text-align: center;
+    color: orange;
+    font-weight: bold;
+}
+.Completed_Tasks_Heading{
+    text-align: center;
+    font-weight: bold;
+    color: lawngreen;
 
+}
