@@ -58,18 +58,7 @@ ul li {
     font-weight: bold;
    
 }
-.subtask-btn{
-    font-size: 15px;
-    color:  white;
-    background-color: green;
-    border: 1px solid rgba(255, 255, 255, 0.2);
-    border-radius: 5px;
-    padding: 5px 10px;
-    cursor: pointer;
-    font-weight: bold;
-    margin-left: 450px; /* move button closer to the left closer to the our delete button*/
 
-}
 
 .addButton {
     background-color: darkslateblue;
@@ -82,7 +71,7 @@ ul li {
 
 .form-control, .form-select {
     margin-bottom: 10px;
-    font-size: 16px; /* Adjusts font size for all form inputs and selects */
+    font-size: 16px; 
 }
 
 .completed {
@@ -101,24 +90,3 @@ ul li {
     color: blue !important;
 }
 
-/*
-.subtask-list{
-    margin-left: 5px;
-    margin-top: 20px;
-    list-style-type: disc;
-}
-.main-task-text {
-    font-size: 18px;  Main task text size 
-    display: block;  Ensure the text spans the full width 
-}
-
-.subtask-list {
-    margin-top: 5px;
-    margin-left: 20px;
-    list-style-type: disc;  Optional: style for subtask list items 
-}
-
-.subtask-text {
-    font-size: 14px;  Subtask text size 
-}
-*/

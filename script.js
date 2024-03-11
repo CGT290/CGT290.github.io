@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const completedSound = document.getElementById('completeSound');
     const deletedSound = document.getElementById('deleteSound');
     const addDueDateInput = document.getElementById('Input_DueDate');
-    
+    const undoCompletedSound = document.getElementById('Uncomplete');
 
     const todayDate = new Date();
     const day = String(todayDate.getDate()).padStart(2, '0');
@@ -95,7 +95,7 @@ document.addEventListener('DOMContentLoaded', function() {
                     completedClone.addEventListener('click', function() {
                        
                         completedClone.remove();
-                          // create and place a sound for undo task here like the completSound.play();
+                        undoCompletedSound.play();
                     });
                     completedTaskList.appendChild(completedClone);
                 }
